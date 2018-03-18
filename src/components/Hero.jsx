@@ -1,13 +1,17 @@
 import React from 'react';
+import computer from '../images/computer.jpeg';
 
 const hero = {
+  backgroundImage: 'url('+ computer +')',
+  overflow: 'hidden',
+  backgroundSize: 'cover',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
   flexWrap: 'wrap',
   width: '100%',
-  height: '600px',
+  height: '700px',
   borderBottom: '2px solid white'
 };
 
@@ -39,6 +43,3 @@ function Hero() {
 }
 
 export default Hero;
-
-
-// background: url("../img/computer-bw.jpeg") center/cover no-repeat,
