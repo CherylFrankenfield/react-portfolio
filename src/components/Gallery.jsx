@@ -46,7 +46,7 @@ function Gallery() {
     <div style={gallery}>
       <div style={img}>
         <div style={text}>
-          <h3 style={header}>Project: Beep Boop Machine</h3>
+          <h3 style={header}>Project: SquirreledAway Mobile App</h3>
         </div>
         <div style={icon}>
           <p></p>
@@ -54,7 +54,7 @@ function Gallery() {
       </div>
       <div style={img}>
         <div style={text}>
-          <h3>Project: Pizza Ordering Site</h3>
+          <h3>Project: Brewery Site Using React</h3>
         </div>
         <div style={icon}>
           <p></p>
@@ -62,7 +62,7 @@ function Gallery() {
       </div>
       <div style={img}>
         <div style={text}>
-          <h3>Project: Product Page</h3>
+          <h3>Project: Local Zoo Site Using Angular</h3>
         </div>
         <div style={icon}>
           <p></p>
@@ -70,7 +70,7 @@ function Gallery() {
       </div>
       <div style={img}>
         <div style={text}>
-          <h3>Group Project: Cards Against Humanity</h3>
+          <h3>Group Project: Draftr</h3>
         </div>
         <div style={icon}>
           <p></p>
