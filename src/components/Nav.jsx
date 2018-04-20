@@ -3,7 +3,7 @@ import React from 'react';
 const navContainer = {
   display: 'flex',
   justifyContent: 'space-between',
-  backgroundColor: 'navy',
+  backgroundColor: '#1A3A3A',
   color: 'white',
 };
 const ul = {

@@ -22,10 +22,11 @@ const text = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  fontSize: '1.4em',
+  fontSize: '22px',
   width: '100%',
   height: '25%',
-  backgroundColor: 'blue',
+  backgroundColor: '#1A3A3A',
+  color: 'white',
   fontFamily: 'sans-serif'
 };
 

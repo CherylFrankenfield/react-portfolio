@@ -6,7 +6,7 @@ const bio = {
   justifyContent: 'space-around',
   backgroundColor: 'honeydew',
   width: '100%',
-  height: '500px',
+  height: '700px',
   borderBottom: '2px solid white'
 };
 
@@ -15,14 +15,14 @@ const paragraph = {
   margin: '20px',
   textAlign: 'justify',
   fontFamily: 'abril_fatfaceregular',
-  fontSize: '1.5em',
+  fontSize: '35px',
   flexBasis: '40%',
-  lineHeight: '30px',
+  lineHeight: '1.2',
 };
 
 const img = {
   width: '50%',
-  height: '400px',
+  height: '600px',
   objectFit: 'cover',
   flexBasis: '30%',
   alignSelf: 'center',

@@ -5,7 +5,7 @@ const skills = {
   justifyContent: 'center',
   alignItems: 'center',
   padding: '30px 30px',
-  backgroundColor: 'grey',
+  backgroundColor: '#44633F',
   width: '100%',
   height: '500px',
   borderBottom: '2px solid'
@@ -19,8 +19,8 @@ const header = {
 };
 
 const paragraph = {
-  fontSize: '1.3em',
-  textAlign: 'justify'
+  fontSize: '24px',
+  textAlign: 'justify',
 };
 
 const leftMid = {

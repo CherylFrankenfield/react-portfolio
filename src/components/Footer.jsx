@@ -4,7 +4,7 @@ const footer = {
   display: 'flex',
   fontSize: '20px',
   justifyContent: 'space-around',
-  backgroundColor: 'grey',
+  backgroundColor: '#1A3A3A',
   width: '100%',
   height: '150px',
   color: 'white',

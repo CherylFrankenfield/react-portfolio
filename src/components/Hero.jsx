@@ -1,5 +1,5 @@
 import React from 'react';
-import computer from '../images/computer.jpeg';
+import computer from '../images/baker.jpg';
 
 const hero = {
   backgroundImage: 'url('+ computer +')',
@@ -11,7 +11,7 @@ const hero = {
   alignItems: 'center',
   flexWrap: 'wrap',
   width: '100%',
-  height: '700px',
+  height: '800px',
   borderBottom: '2px solid white'
 };
 
