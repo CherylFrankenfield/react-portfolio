@@ -28,17 +28,17 @@ function Footer() {
       <div>
         <h4>Contact Me:</h4>
         <ul style={ul}>
-          <li style={li}>Email: cherylfrankenfield@gmail.com</li>
-          <li style={li}>Phone: 555.555.5555</li>
+          <li style={li}>cherylfrankenfield@gmail.com</li>
+          <li style={li}>555.555.5555</li>
         </ul>
       </div>
       <div>
         <h4>Find me online:</h4>
         <ul style={ul}>
-          <li style={li}>LinkedIn</li>
-          <li style={li}>Instagram</li>
-          <li style={li}>Twitter</li>
-          <li style={li}>GitHub</li>
+          <li style={li}><a href='https://www.linkedin.com/in/cherylfrankenfield/'>LinkedIn</a></li>
+          <li style={li}><a href='https://www.instagram.com/citysquirl/'>Instagram</a></li>
+          <li style={li}><a href='https://twitter.com/CherylFranken'>Twitter</a></li>
+          <li style={li}><a href='https://github.com/CherylFrankenfield'>GitHub</a></li>
         </ul>
       </div>
     </div>
