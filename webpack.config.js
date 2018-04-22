@@ -32,6 +32,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test:/\.css$/,
+        use:['style-loader','css-loader']
+      },
+      {
         test: /\.(png|gif|jp(e*)g|svg)$/,
         use: {
           loader: 'url-loader',
@@ -75,7 +79,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'Portfolio',
+      title: 'Cheryl Frankenfield Portfolio',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
