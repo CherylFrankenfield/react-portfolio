@@ -4,7 +4,7 @@ import {Navbar,NavItem} from 'react-materialize';
 function Nav() {
   return(
     <div>
-      <Navbar brand='logo' left>
+      <Navbar>
         <NavItem href='get-started.html'>About</NavItem>
         <NavItem href='components.html'>Work</NavItem>
         <NavItem href='components.html'>Experience</NavItem>

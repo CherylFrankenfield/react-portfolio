@@ -16,7 +16,7 @@ const hero = {
 };
 
 const paragraph = {
-  fontFamily: 'abril_fatfaceregular',
+  fontFamily: 'Roboto',
   fontSize: '2em',
   marginLeft: '50px',
   width: '70%',
@@ -25,7 +25,7 @@ const paragraph = {
 };
 
 const header = {
-  fontFamily: 'abril_fatfaceregular',
+  fontFamily: 'Roboto',
   fontSize: '5em',
   width: '100%',
   marginLeft: '50px'

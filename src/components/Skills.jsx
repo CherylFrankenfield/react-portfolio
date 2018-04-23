@@ -5,22 +5,25 @@ const skills = {
   justifyContent: 'center',
   alignItems: 'center',
   padding: '30px 30px',
-  backgroundColor: '#44633F',
+  backgroundColor: '#FF8A5B',
   width: '100%',
   height: '500px',
-  borderBottom: '2px solid'
+  borderBottom: '2px solid',
+  color: 'white',
 };
 
 const header = {
-  fontFamily: 'abril_fatfaceregular',
+  fontFamily: 'Roboto',
   fontSize: '2em',
   alignSelf: 'center',
   marginBottom: '20px',
+  color: 'white',
 };
 
 const paragraph = {
   fontSize: '24px',
   textAlign: 'justify',
+  color: 'white',
 };
 
 const leftMid = {

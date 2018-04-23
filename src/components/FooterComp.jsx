@@ -14,7 +14,7 @@ function FooterComp() {
           </ul>
         }
         className='example'
-        >
+      >
         <h5 className='white-text'>Find me online.</h5>
         <p className='grey-text text-lighten-4'>cherylfrankenfield@gmail.com</p>
       </Footer>;
