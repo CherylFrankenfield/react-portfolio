@@ -6,24 +6,24 @@ function Gallery() {
   return(
     <div style={styles.gallery}>
       <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
-        title="Card Title"
-        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-        <p><a href="#">This is a link</a></p>
+        title='Project: SquirreledAway Mobile App'
+        reveal={<p>Have you ever said the phrase, ‘We should do that sometime,’ but then never did? Check out the SquirreledAway app -- a social events organizer for your local bucket list. Using React Native, independently building an iOS mobile app for capstone project.</p>}>
+        <p><a href='https://github.com/CherylFrankenfield/squirreledaway-planning.git'>See repo on GitHub.</a></p>
       </Card>
       <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
-        title="Card Title"
-        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-        <p><a href="#">This is a link</a></p>
+        title='Project: Brewery Site Using React'
+        reveal={<p>The main goal was to rebuild a Taproom project, previously built in <a href='https://github.com/CherylFrankenfield/taproom2.git'>Angular</a>, into a React app to compare/contrast the two languages and get firsthand experience in building both functional and state-based components in React.</p>}>
+        <p><a href='https://github.com/CherylFrankenfield/react-taproom'>See repo on GitHub.</a></p>
       </Card>
       <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
-        title="Card Title"
-        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-        <p><a href="#">This is a link</a></p>
+        title='Local Zoo Site Using Angular'
+        reveal={<p>I built a zoo employee portal for adding new animals to the zoo, editing their details, and sorting functionality using Angular, Typescript and Bootstrap.</p>}>
+        <p><a href='https://github.com/CherylFrankenfield/local-zoo'>See repo on GitHub.</a></p>
       </Card>
       <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
-        title="Card Title"
-        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-        <p><a href="#">This is a link</a></p>
+        title='Group Project: Draftr'
+        reveal={<p>As part of our group week in Javascript, a team of four built an app for signing up for and tracking code school projects. This application was built using Angular5 with Firestore. Specifically, my pair partner and I built out component functionality to display projects in different views and a lot of the CRUD functionality with updating/deleting in edit/delete buttons.</p>}>
+        <p><a href='https://github.com/ckjpdx/draftr'>See repo on GitHub.</a></p>
       </Card>
     </div>
   );
