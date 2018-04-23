@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card,CardTitle} from 'react-materialize';
 import sqOne from '../../src/images/sqOne.png';
+import taproom2 from '../../src/images/taproom2.png';
 
 function Gallery() {
   return(
@@ -10,7 +11,7 @@ function Gallery() {
         reveal={<p>Have you ever said the phrase, ‘We should do that sometime,’ but then never did? Check out the SquirreledAway app -- a social events organizer for your local bucket list. Using React Native, independently building an iOS mobile app for capstone project.</p>}>
         <p><a href='https://github.com/CherylFrankenfield/squirreledaway-planning.git'>See repo on GitHub.</a></p>
       </Card>
-      <Card style={styles.card} header={<CardTitle reveal image={sqOne} waves='light'/>}
+      <Card style={styles.card} header={<CardTitle reveal image={taproom2} waves='light'/>}
         title='Project: Brewery Site Using React'
         reveal={
           <p>The main goal was to rebuild a Taproom project, previously built in <a href='https://github.com/CherylFrankenfield/taproom2.git'>Angular</a>, into a React app to compare/contrast the two languages and get firsthand experience in building both functional and state-based components in React.</p>
