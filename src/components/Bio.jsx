@@ -27,7 +27,7 @@ const img = {
   objectFit: 'cover',
   flexBasis: '30%',
   alignSelf: 'center',
-  border: '1px solid'
+  border: '1px solid black'
 };
 
 function Bio() {

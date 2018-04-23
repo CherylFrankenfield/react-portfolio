@@ -9,25 +9,25 @@ function Gallery() {
   return(
     <div style={styles.gallery}>
       <Card style={styles.card} header={<CardTitle reveal image={sqOne} waves='light'/>}
-        title='SquirreledAway Mobile App'
+        title='SquirreledAway App - React Native'
         reveal={<p>Have you ever said the phrase, ‘We should do that sometime,’ but then never did? Check out the SquirreledAway app -- a social events organizer for your local bucket list. Using React Native, independently building an iOS mobile app for capstone project.</p>}>
         <p><a href='https://github.com/CherylFrankenfield/squirreledaway-planning.git'>See repo on GitHub.</a></p>
       </Card>
       <Card style={styles.card} header={<CardTitle reveal image={taproom2} waves='light'/>}
-        title='Brewery Site Using React'
+        title='Brewery Site - React'
         reveal={
           <p>The main goal was to rebuild a Taproom project, previously built in <a href='https://github.com/CherylFrankenfield/taproom2.git'>Angular</a>, into a React app to compare/contrast the two languages and get firsthand experience in building both functional and state-based components in React.</p>
         }>
         <p><a href='https://github.com/CherylFrankenfield/react-taproom'>See repo on GitHub.</a></p>
       </Card>
       <Card style={styles.card} header={<CardTitle reveal image={zoo} waves='light'/>}
-        title='Local Zoo Site Using Angular'
+        title='Local Zoo Site - Angular'
         reveal={<p>I built a zoo employee portal for adding new animals to the zoo, editing their details, and sorting functionality using Angular, Typescript and Bootstrap.</p>}>
         <p><a href='https://github.com/CherylFrankenfield/local-zoo'>See repo on GitHub.</a></p>
       </Card>
       <Card style={styles.card} header={<CardTitle reveal image={tamagotchi} waves='light'/>}
-        title='React Tamagotchi'
-        reveal={<p></p>}>
+        title='Tamagotchi - React'
+        reveal={<p>Refactor an existing JavaScript project and create a tamagotchi game using React and Webpack. This was an exercise in working with React component trees, state management and different CSS styling methods with React.</p>}>
         <p><a href='https://github.com/CherylFrankenfield/react-tamagotchi'>See repo on GitHub.</a></p>
       </Card>
     </div>
