@@ -1,8 +1,8 @@
 import React from 'react';
-import computer from '../images/baker.jpg';
+import baker from '../images/baker.jpg';
 
 const hero = {
-  backgroundImage: 'url('+ computer +')',
+  backgroundImage: 'url('+ baker +')',
   overflow: 'hidden',
   backgroundSize: 'cover',
   display: 'flex',
@@ -21,7 +21,8 @@ const paragraph = {
   marginLeft: '50px',
   width: '70%',
   letterSpacing: '2px',
-  lineHeight: '40px'
+  lineHeight: '40px',
+  marginBottom: '140px'
 };
 
 const header = {

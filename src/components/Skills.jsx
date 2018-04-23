@@ -7,7 +7,7 @@ const skills = {
   padding: '30px 30px',
   backgroundColor: '#FF8A5B',
   width: '100%',
-  height: '500px',
+  height: '900px',
   borderBottom: '2px solid',
   color: 'white',
 };

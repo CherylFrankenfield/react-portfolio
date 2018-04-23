@@ -34,7 +34,7 @@ function Bio() {
   return(
     <div style={bio}>
       <img src={workPhoto} style={img} alt='image of myself at work'/>
-      <p style={paragraph}>Driven and gracious self-starter with experience in front-end development, marketing and communications from various industries such as publishing, fashion and software. Known for being dependable, creative and productive, I'm seeking a position on a team driving brand engagement and experience.</p>
+      <p style={paragraph}>Driven self-starter with experience in front end development, marketing and communications from various industries such as publishing, fashion and software. Known for being dependable, creative and productive, I'm seeking a position on a team driving brand engagement and experience.</p>
     </div>
   );
 }
