@@ -1,95 +1,30 @@
 import React from 'react';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
+import {Card,CardTitle} from 'react-materialize'
 import sqOne from '../../src/images/sqOne.png';
 
 function Gallery() {
   return(
     <div style={styles.gallery}>
-      <div>
-        <Card>
-          <CardHeader
-            title='Project: SquirreledAway'
-            subtitle='React Native Mobile App'
-            avatar="images/jsa-128.jpg"
-            />
-          <CardMedia
-            overlay={<CardTitle title='Project: SquirreledAway' subtitle='React Native Mobile App' />}
-            >
-            <img src={sqOne} style={styles.img} alt='Snapshot of SquirreledAway mobile app login screen.' />
-          </CardMedia>
-          <CardTitle title='Project: SquirreledAway' subtitle='React Native Mobile App' />
-          <CardText>
-            Have you ever said the phrase, ‘We should do that sometime,’ but then never did? Check out the SquirreledAway app -- a social events organizer for your local bucket list. Using React Native, independently building an iOS mobile app for capstone project. For more information, please find the GitHub repo <a href='https://github.com/CherylFrankenfield/squirreledaway-planning.git'>here.</a>
-          </CardText>
-          <CardActions>
-            <FlatButton label="Action1" />
-          </CardActions>
-        </Card>
-      </div>
-      <div>
-        <Card>
-          <CardHeader
-            title='Project: Brewery Site Using React'
-            subtitle="Subtitle"
-            avatar="images/jsa-128.jpg"
-            />
-          <CardMedia
-            overlay={<CardTitle title='Project: Brewery Site Using React' subtitle="Overlay subtitle" />}
-            >
-            <img src="images/nature-600-337.jpg" alt="" />
-          </CardMedia>
-          <CardTitle title='Project: Brewery Site Using React' subtitle="Card subtitle" />
-          <CardText>
-            The main goal was to rebuild a Taproom project (previously built in Angular <a href='https://github.com/CherylFrankenfield/taproom2.git'>here</a>) into a React app to compare/contrast the two languages and get firsthand experience in building both functional and state-based components in React.
-          </CardText>
-          <CardActions>
-            <FlatButton label="Action1" />
-          </CardActions>
-        </Card>
-      </div>
-      <div>
-        <Card>
-          <CardHeader
-            title="URL Avatar"
-            subtitle="Subtitle"
-            avatar="images/jsa-128.jpg"
-            />
-          <CardMedia
-            overlay={<CardTitle title='Project: Local Zoo Site Using Angular' subtitle="Overlay subtitle" />}
-            >
-            <img src="images/nature-600-337.jpg" alt="" />
-          </CardMedia>
-          <CardTitle title='Project: Local Zoo Site Using Angular' subtitle="Card subtitle" />
-          <CardText>
-            I built a zoo employee portal for adding new animals to the zoo, editing their details, and sorting functionality using Angular, Typescript and Bootstrap.
-          </CardText>
-          <CardActions>
-            <FlatButton label="Action1" />
-          </CardActions>
-        </Card>
-      </div>
-      <div>
-        <Card>
-          <CardHeader
-            title="URL Avatar"
-            subtitle="Subtitle"
-            avatar="images/jsa-128.jpg"
-            />
-          <CardMedia
-            overlay={<CardTitle title='Group Project: Draftr' subtitle="Overlay subtitle" />}
-            >
-            <img src="images/nature-600-337.jpg" alt="" />
-          </CardMedia>
-          <CardTitle title='Group Project: Draftr' subtitle="Card subtitle" />
-          <CardText>
-            As part of our group week in Javascript, a team of four built an app for signing up for and tracking code school projects. This application was built using Angular5 with Firestore. Specifically, my pair partner and I built out component functionality to display projects in different views and a lot of the CRUD functionality with updating/deleting in edit/delete buttons.
-          </CardText>
-          <CardActions>
-            <FlatButton label="Action1" />
-          </CardActions>
-        </Card>
-      </div>
+      <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
+        title="Card Title"
+        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
+        <p><a href="#">This is a link</a></p>
+      </Card>
+      <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
+        title="Card Title"
+        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
+        <p><a href="#">This is a link</a></p>
+      </Card>
+      <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
+        title="Card Title"
+        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
+        <p><a href="#">This is a link</a></p>
+      </Card>
+      <Card header={<CardTitle reveal image={sqOne} waves='light'/>}
+        title="Card Title"
+        reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
+        <p><a href="#">This is a link</a></p>
+      </Card>
     </div>
   );
 }
@@ -134,10 +69,6 @@ const styles = {
     overflow: 'hidden'
   }
 };
-
-
-
-
 
 export default Gallery;
 
