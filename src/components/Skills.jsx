@@ -8,13 +8,13 @@ function Skills() {
         <FontAwesome name='fas fa-code' size='4x' style={icon}/>
         <h3 style={header}>Front End Development</h3>
         <p style={paragraph}>
-          <span style={dropcap}>S</span>ix months of pair programming and front end development experience with 40+ hours a week learning not only the following libraries, frameworks and tools, but how to learn how to program. During this program, I gained knowledge in reading documentation, troubleshooting problems and collaborating on teams.</p>
+          <span style={dropcap}>D</span>riven self-starter with experience in front end development, most recently developing in React and React Native. Known for being dependable, creative and productive, I'm seeking a position on a team driving brand engagement and experience. Comfortable with pair programming, reading documentation, troubleshooting problems and collaborating on teams.</p>
       </div>
       <div style={leftMid}>
         <FontAwesome name='fas fa-tree' size='4x' style={icon}/>
         <h3 style={header}>Marketing</h3>
         <p style={paragraph}>
-          <span style={dropcap}>M</span>ore than 15 years of experience in communications and marketing from various industries such as publishing, fashion and software. Most recently having worked in the domains/hosting space and attended hackathons as a sponsor, I saw firsthand the thrill of a team making a project come to life in 24-48 hours. I realized my passion was in creating, building and developing products.</p>
+          <span style={dropcap}>M</span>ore than 15 years of experience in communications and marketing from various industries such as publishing, fashion and software. Most recently having worked in the domains/hosting space and having attended hackathons as a sponsor, I saw firsthand the thrill of making a project come to life in 24-48 hours. I realized my passion was in creating, building and developing products.</p>
       </div>
       <div style={leftMid}>
         <FontAwesome name='fas fa-cubes' size='4x' style={icon}/>
@@ -50,6 +50,7 @@ const header = {
 
 const icon = {
   textAlign: 'center',
+  color: '#77ECFF',
 };
 
 const dropcap = {

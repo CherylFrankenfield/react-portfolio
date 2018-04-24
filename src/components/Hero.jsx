@@ -33,14 +33,16 @@ const paragraph = {
   width: '70%',
   letterSpacing: '2px',
   lineHeight: '40px',
-  marginBottom: '180px'
+  marginBottom: '200px',
+  color: 'white',
 };
 
 const header = {
   fontFamily: 'Roboto',
   fontSize: '100px',
   width: '100%',
-  marginLeft: '50px'
+  marginLeft: '50px',
+  color: 'white',
 };
 
 export default Hero;

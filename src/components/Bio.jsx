@@ -6,7 +6,7 @@ function Bio() {
     <div style={bio}>
       <img src={workPhoto} style={img} alt='image of myself at work'/>
       <p style={paragraph}>
-        <span style={dropcap}>D</span>riven self-starter with experience in front end development, marketing and communications from various industries such as publishing, fashion and software. Known for being dependable, creative and productive, I'm seeking a position on a team driving brand engagement and experience.</p>
+        <span style={dropcap}>H</span>i there. When I'm not working on a web or mobile project, you can most likely find me climbing a mountain or backpacking in the Pacific Northwest. In winter, I drink lots of coffee and in the summer, I turn my entire front yard into a garden. And year round, I am interested in technology and learning new skills.</p>
     </div>
   );
 }
@@ -25,7 +25,7 @@ const paragraph = {
   margin: '20px',
   textAlign: 'justify',
   fontFamily: 'Roboto',
-  fontSize: '35px',
+  fontSize: '30px',
   flexBasis: '40%',
   lineHeight: '1.2',
   color: '#FF8A5B',
