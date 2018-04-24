@@ -1,5 +1,6 @@
 import React from 'react';
 import {Footer} from 'react-materialize';
+import FontAwesome from 'react-fontawesome';
 
 function FooterComp() {
   return(
@@ -13,7 +14,6 @@ function FooterComp() {
             <li><a className='grey-text text-lighten-3' href='https://github.com/CherylFrankenfield'>GitHub</a></li>
           </ul>
         }
-        className='example'
       >
         <h5 className='white-text'>Find me online.</h5>
         <p className='grey-text text-lighten-4'>cherylfrankenfield@gmail.com</p>

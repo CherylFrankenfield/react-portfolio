@@ -1,6 +1,16 @@
 import React from 'react';
 import workPhoto from '../images/workPhoto.jpg';
 
+function Bio() {
+  return(
+    <div style={bio}>
+      <img src={workPhoto} style={img} alt='image of myself at work'/>
+      <p style={paragraph}>
+        <span style={dropcap}>D</span>riven self-starter with experience in front end development, marketing and communications from various industries such as publishing, fashion and software. Known for being dependable, creative and productive, I'm seeking a position on a team driving brand engagement and experience.</p>
+    </div>
+  );
+}
+
 const bio = {
   display: 'flex',
   justifyContent: 'space-around',
@@ -30,13 +40,15 @@ const img = {
   border: '1px solid black'
 };
 
-function Bio() {
-  return(
-    <div style={bio}>
-      <img src={workPhoto} style={img} alt='image of myself at work'/>
-      <p style={paragraph}>Driven self-starter with experience in front end development, marketing and communications from various industries such as publishing, fashion and software. Known for being dependable, creative and productive, I'm seeking a position on a team driving brand engagement and experience.</p>
-    </div>
-  );
-}
+const dropcap = {
+  color: '#FF8A5B',
+  float: 'left',
+  fontFamily: 'Roboto',
+  fontSize: '75px',
+  lineHeight: '60px',
+  paddingTop: '4px',
+  paddingRight: '8px',
+  paddingLeft: '3px',
+};
 
 export default Bio;
