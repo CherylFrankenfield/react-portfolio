@@ -1,11 +1,10 @@
 import React from 'react';
 import {Footer} from 'react-materialize';
-import FontAwesome from 'react-fontawesome';
 
 function FooterComp() {
   return(
     <div>
-      <Footer copyrights='© 2018 Cheryl Frankenfield'
+      <Footer style={footer} copyrights='© 2018 Cheryl Frankenfield'
         links={
           <ul>
             <li><a className='grey-text text-lighten-3' href='https://www.linkedin.com/in/cherylfrankenfield/'>LinkedIn</a></li>
@@ -21,5 +20,9 @@ function FooterComp() {
     </div>
   );
 }
+
+const footer = {
+  backgroundColor: '#FC5574',
+};
 
 export default FooterComp;

@@ -10,8 +10,8 @@ function Gallery() {
     <div style={styles.gallery}>
       <Card style={styles.card} header={<CardTitle reveal image={sqOne} waves='light'/>}
         title='SquirreledAway App - React Native'
-        reveal={<p style={styles.p}>Have you ever said the phrase, ‘We should do that sometime,’ but then never did? Check out the SquirreledAway app -- a social events organizer for your local bucket list. Using React Native, independently building an iOS mobile app for capstone project.</p>}>
-        <p><a href='https://github.com/CherylFrankenfield/squirreledaway-planning.git'>See repo on GitHub.</a></p>
+        reveal={<p style={styles.p}>Have you ever said the phrase, ‘We should do that sometime,’ but then never did? Check out the social events organizer and solution for your local bucket list, the SquirreledAway mobile app. Technologies used include React Native, React Navigation and Redux.</p>}>
+        <p><a href='https://github.com/CherylFrankenfield/sqOne'>See repo on GitHub.</a></p>
       </Card>
       <Card style={styles.card} header={<CardTitle reveal image={taproom2} waves='light'/>}
         title='Brewery Site - React'
@@ -27,7 +27,7 @@ function Gallery() {
       </Card>
       <Card style={styles.card} header={<CardTitle reveal image={tamagotchi} waves='light'/>}
         title='Tamagotchi - React'
-        reveal={<p style={styles.p}>Refactor an existing JavaScript project and create a tamagotchi game using React and Webpack. This was an exercise in working with React component trees, state management and different CSS styling methods with React.</p>}>
+        reveal={<p style={styles.p}>Refactor an existing JavaScript project and create a tamagotchi game using React and Webpack. This was an exercise in working with React component trees, state management and different CSS styling methods and Materialize with React.</p>}>
         <p><a href='https://github.com/CherylFrankenfield/react-tamagotchi'>See repo on GitHub.</a></p>
       </Card>
     </div>

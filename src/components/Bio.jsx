@@ -6,7 +6,7 @@ function Bio() {
     <div style={bio}>
       <img src={workPhoto} style={img} alt='image of myself at work'/>
       <p style={paragraph}>
-        <span style={dropcap}>H</span>i there. When I'm not working on a web or mobile project, you can most likely find me climbing a mountain or backpacking in the Pacific Northwest. In winter, I drink lots of coffee and in the summer, I turn my entire front yard into a garden. And year round, I am interested in technology and learning new skills.</p>
+        <span style={dropcap}>H</span>i there. When I'm not working on a web or mobile project, you can most likely find me climbing a mountain or backpacking in the Pacific Northwest. In winter, I drink lots of coffee and in the summer, I turn my entire front yard into a garden. And year round, I am continuously interested in technology and learning new skills.</p>
     </div>
   );
 }
