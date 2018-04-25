@@ -1,5 +1,7 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
+import MediaQuery from 'react-responsive';
+
 
 function Skills() {
   return(
@@ -78,25 +80,5 @@ const leftMid = {
   padding: '20px',
 };
 
-export default Skills;
 
-// <ul>
-//   <li>Javascript</li>
-//   <li>Angular</li>
-//   <li>API</li>
-//   <li>Firebase</li>
-//   <li>Webpack</li>
-//   <li>React Native</li>
-//   <li>Node.js</li>
-// </ul>
-// </div>
-// <div>
-// <h3 style={header}></h3>
-// <ul>
-//   <li>SASS</li>
-//   <li>Bootstrap</li>
-//   <li>Jest</li>
-//   <li>Jasmine</li>
-//   <li>Karma</li>
-//   <li>jQuery</li>
-// </ul>
+export default Skills;

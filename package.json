@@ -17,6 +17,7 @@
     "react-dom": "^15.5.4",
     "react-fontawesome": "^1.6.1",
     "react-icons": "^2.2.7",
+    "react-responsive": "^4.1.0",
     "react-router-dom": "^4.0.0",
     "react-tap-event-plugin": "^3.0.2",
     "styled-jsx": "^2.2.4"
